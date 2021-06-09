@@ -1,0 +1,49 @@
+.html{
+    background-image: url(one-piece-big-mom-saga-i94377.jpg);
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(onepiece.jpg);
+    background-size: cover;
+}
+#block{
+    width: 50px;
+    height: 500px;
+    position: relative;
+    left: 500px;
+    animation: block 2s infinite linear;
+    background-image: url(onepiece.jpg);
+    background-size: cover;
+}
+@keyframes block{
+    0%{left:500px}
+    100%{left:-50px}
+}
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    left: 500px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#character{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 247, 7);
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+    background-image: url(onepiece.jpg);
+    background-size: cover;
+}
